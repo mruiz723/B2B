@@ -17,8 +17,6 @@
 		37C9172F1D9B1F1500F69AE2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C9172E1D9B1F1500F69AE2 /* User.swift */; };
 		37C917311D9B20D100F69AE2 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C917301D9B20D100F69AE2 /* Client.swift */; };
 		37C917331D9B221100F69AE2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C917321D9B221100F69AE2 /* Product.swift */; };
-		37C917351D9C0B2700F69AE2 /* Emplyoee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C917341D9C0B2700F69AE2 /* Emplyoee.swift */; };
-		37C917391D9C0DE000F69AE2 /* EmplyoeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C917381D9C0DE000F69AE2 /* EmplyoeeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +32,6 @@
 		37C9172E1D9B1F1500F69AE2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		37C917301D9B20D100F69AE2 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		37C917321D9B221100F69AE2 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		37C917341D9C0B2700F69AE2 /* Emplyoee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emplyoee.swift; sourceTree = "<group>"; };
-		37C917381D9C0DE000F69AE2 /* EmplyoeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmplyoeeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +68,6 @@
 				37C917151D9B1A1700F69AE2 /* AppDelegate.swift */,
 				37C917171D9B1A1700F69AE2 /* UserViewController.swift */,
 				37C917191D9B1A1700F69AE2 /* ClientViewController.swift */,
-				37C917381D9C0DE000F69AE2 /* EmplyoeeViewController.swift */,
 				376B982B1D9C324300241D99 /* NewClientViewController.swift */,
 				37C9171B1D9B1A1700F69AE2 /* Main.storyboard */,
 				37C9171E1D9B1A1700F69AE2 /* Assets.xcassets */,
@@ -88,7 +83,6 @@
 				37C9172E1D9B1F1500F69AE2 /* User.swift */,
 				37C917301D9B20D100F69AE2 /* Client.swift */,
 				37C917321D9B221100F69AE2 /* Product.swift */,
-				37C917341D9C0B2700F69AE2 /* Emplyoee.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,9 +164,7 @@
 				37C917161D9B1A1700F69AE2 /* AppDelegate.swift in Sources */,
 				37C917311D9B20D100F69AE2 /* Client.swift in Sources */,
 				37C917181D9B1A1700F69AE2 /* UserViewController.swift in Sources */,
-				37C917351D9C0B2700F69AE2 /* Emplyoee.swift in Sources */,
 				376B982C1D9C324300241D99 /* NewClientViewController.swift in Sources */,
-				37C917391D9C0DE000F69AE2 /* EmplyoeeViewController.swift in Sources */,
 				37C917331D9B221100F69AE2 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

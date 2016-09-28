@@ -316,37 +316,6 @@
             </objects>
             <point key="canvasLocation" x="2156" y="-12"/>
         </scene>
-        <!--Emplyoee View Controller-->
-        <scene sceneID="ZpW-vE-1d0">
-            <objects>
-                <viewController id="pLU-xa-LWz" customClass="EmplyoeeViewController" customModule="B2B" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6Sj-he-3Rx"/>
-                        <viewControllerLayoutGuide type="bottom" id="JyO-8r-LSb"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0HB-hJ-iSu">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xb3-Fd-blh">
-                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Xb3-Fd-blh" secondAttribute="trailing" id="XKc-LL-ePW"/>
-                            <constraint firstItem="JyO-8r-LSb" firstAttribute="top" secondItem="Xb3-Fd-blh" secondAttribute="bottom" id="Y7T-G4-y9C"/>
-                            <constraint firstItem="Xb3-Fd-blh" firstAttribute="top" secondItem="6Sj-he-3Rx" secondAttribute="bottom" id="rVD-Ut-9N8"/>
-                            <constraint firstItem="Xb3-Fd-blh" firstAttribute="leading" secondItem="0HB-hJ-iSu" secondAttribute="leading" id="tGt-hm-Bc1"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="Hjf-Ou-OXU"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ij1-gw-irg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1490" y="721"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -360,7 +329,6 @@
                     <connections>
                         <segue destination="2LZ-s6-8Gz" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="u49-Sn-Ike" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="avH-0T-ftY" kind="relationship" relationship="viewControllers" id="ufn-4N-k3e"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -404,25 +372,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="39P-hT-2i1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="761" y="-12"/>
-        </scene>
-        <!--Empleado-->
-        <scene sceneID="uxW-HX-GV2">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="avH-0T-ftY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Empleado" id="65A-N3-nUp"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Po-U9-KH4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="pLU-xa-LWz" kind="relationship" relationship="rootViewController" id="jP8-pq-M68"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pm2-0v-mHY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="761" y="721"/>
         </scene>
     </scenes>
 </document>
