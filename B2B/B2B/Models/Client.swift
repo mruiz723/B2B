@@ -24,10 +24,9 @@ class Client: User {
     convenience init() {
         self.init(idClient:"", product: Product(), name: "", phone: "", idUser: "")
     }
+
     
-   
-    
-    //MARK: - NSCoding
+    //MARK: - NSCoding Sobrecarga
     required convenience init(coder aDecoder: NSCoder) {
         let idClient = aDecoder.decodeObjectForKey("idClient") as! String
         let product = aDecoder.decodeObjectForKey("product") as! Product
@@ -38,6 +37,7 @@ class Client: User {
         self.init(idClient:idClient, product:product, name:name, phone:phone, idUser:idUser)
     }
     
+    //Polimorfismo
     override func encodeWithCoder(aCoder: NSCoder) {
         aCoder.encodeObject(idClient, forKey: "idClient")
         aCoder.encodeObject(product, forKey: "product")
@@ -45,12 +45,6 @@ class Client: User {
         aCoder.encodeObject(name, forKey: "name")
         aCoder.encodeObject(phone, forKey: "phone")
         aCoder.encodeObject(idUser, forKey: "idUser")
-    }
-    
-    
-    //Polimorfismo
-    override func buy() {
-        
     }
     
     // Utils

@@ -13,7 +13,7 @@ class User: NSObject, NSCoding {
     var name:String
     var phone:String
     
-    //Sobrecarga. Inicializador Designado.
+    //Inicializador Designado.
     init(name:String, phone:String, idUser:String) {
         self.name = name
         self.phone = phone
@@ -28,7 +28,7 @@ class User: NSObject, NSCoding {
 
     }
     
-    //MARK: - NSCoding
+    //MARK: - NSCoding  Sobrecarga
     required convenience init(coder aDecoder: NSCoder) {
         let idUser = aDecoder.decodeObjectForKey("idUser") as! String
         let name = aDecoder.decodeObjectForKey("name") as! String
@@ -43,10 +43,6 @@ class User: NSObject, NSCoding {
     }
     
     //MARK: - Utils
-    func buy() {
-        print("User is buying")
-    }
-    
     static func users() -> [User] {
         var users = [User]()
         let userDef = NSUserDefaults.standardUserDefaults()

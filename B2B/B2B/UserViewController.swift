@@ -48,7 +48,8 @@ class UserViewController: UIViewController, UITableViewDataSource {
         
     }
     
-    //MARK: - LifeCycle
+    //MARK: - LifeCycle 
+    //Polymorfismo
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -56,6 +57,7 @@ class UserViewController: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    //Polymorfismo
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

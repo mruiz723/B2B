@@ -16,12 +16,14 @@ class ClientViewController: UIViewController, UITableViewDataSource, NewClientVi
     var clients = [Client]()
     
     //MARK: - LifeCycle
+    //Polymorfismo
     override func viewDidLoad() {
         super.viewDidLoad()
         clients = Client.clients()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    //Polymorfismo
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
